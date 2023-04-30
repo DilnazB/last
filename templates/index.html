@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Enter Text</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+    <form action="/" method="post">
+      <input type="text" name="user_text" id="user_text">
+      <input type="submit" value="Еңгізу">
+      <p>{{ response_text }}</p>
+    </form>
+  </body>
+</html>
